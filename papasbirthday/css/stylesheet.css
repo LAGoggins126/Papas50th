@@ -1,0 +1,67 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    width:100%;
+    height:100%;
+}
+
+/* page structure */
+
+body {
+    display:grid;
+    grid-template-areas: 1fr 1fr 16fr;
+    background-color:#3d348b;
+    background-size:cover;
+}
+/* navigation styles */
+
+nav {
+    background-color:#40798c;
+}
+
+nav ul {
+    text-align:center;
+}
+
+nav ul li a{
+    display: block;
+    color:black;
+    padding: 20px;
+    text-decoration:none;
+    transition: all 0.5;
+}
+
+nav ul li a:hover {
+    background-color:#336170;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+main {
+    background-color:#c284cf;
+}
+
+h1 {
+    background-color:#fffae3;
+    text-align:center;
+}
+
+table tr td {
+    height:500px;
+    width:200px;
+}
+/* transform:translateY(-75%) */
+.pic-a{
+    background-image: url(../images/dnd-kitten.jpeg);
+}
+
+.pic-b{
+    background-image: url(../images/mountain-man.jpeg);
+}
